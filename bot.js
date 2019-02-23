@@ -2,7 +2,6 @@ const Discord = require('discord.js');
 const client = new Discord.Client();    
 const UserBlocked = new Set();  
 const math = require('math-expression-evaluator'); 
-const figlet = require('figlet'); 
 const zalgo = require('zalgolize');   
 const dateFormat = require('dateformat'); 
 const pretty = require('pretty-ms') 
